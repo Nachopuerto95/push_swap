@@ -41,7 +41,7 @@ Principios básicos:
 Cómo Usarlo
 Compilación:
 
-```c
+```bash
 make
 ```
 Ejecución:
@@ -69,13 +69,28 @@ El programa solo puede utilizar las siguientes operaciones sobre las pilas:
 `ra` / `rb` / `rr` – Rota la pila hacia arriba. <br>
 `rra` / `rrb` / `rrr` – Rota la pila hacia abajo. <br>
 
+<img src="https://github.com/Nachopuerto95/multilang/blob/main/pswap1.png">
+
 ### 🧩 Bonus: Checker interactivo con get_next_line
 Como parte del bonus del proyecto, he implementado un programa llamado checker, que lee una secuencia de instrucciones desde la entrada estándar y verifica si ordenan correctamente la pila de entrada según las reglas de push_swap.
 
 🛠️ ¿Cómo funciona?
+
+-  Compilar el checker
+```bash
+  make bonus
+```
 -  El programa lee las instrucciones línea por línea desde `stdin` usando la función `get_next_line`.
 -  Aplica cada operación (`sa`, `pb`, `rra`, etc.) sobre las pilas `A` y `B`.
 Al finalizar, evalúa:
   - Si la pila `A` está completamente ordenada de menor a mayor.
   - Si la pila `B` está vacía.
 - Si ambas condiciones se cumplen, imprime `OK`, de lo contrario, imprime `KO`.
+
+Se puede utilizar mediante pipe, pasando el resultado de push_swap
+
+```bash
+> ./push_swap 1 3 2 7 | ./checker 1 3 2 7
+```
+<img src="https://github.com/Nachopuerto95/multilang/blob/main/pswap2.png">
+
