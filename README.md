@@ -42,19 +42,19 @@ Core principles:
 
 Compilation:
 
-```c
+```bash
 make
 ```
 
 Execution:
 
-```c
+```bash
 ./push_swap <number1> <number2> <number3> ...
 ```
 
 Example:
 
-```c
+```bash
 ./push_swap 5 34 6 -7 233
 ```
 
@@ -72,12 +72,25 @@ The program can only use the following operations on the stacks:
 `ra` / `rb` / `rr` – Rotate a stack upward.<br>
 `rra` / `rrb` / `rrr` – Rotate a stack downward.<br>
 
+- <img src="https://github.com/Nachopuerto95/multilang/blob/main/pswap1.png">
+
 ### 🧩 Bonus: Checker using get_next_line
 As part of the project bonus, I have implemented a program called checker, which reads a sequence of instructions from the standard input and checks if they correctly sort the input stack according to the push_swap rules.
 🛠️ ¿How it works?
+- Compile checker
+```bash
+  make bonus
+```
 - The program reads the instructions line by line from `stdin` using the `get_next_line` function.
 - It applies each operation (`sa`, `pb`, `rra`, etc.) on stacks `A` and `B`.
 When finished, evaluate:
   - Whether the `A` stack is completely sorted from lowest to highest.
   - If stack `B` is empty.
 - If both conditions are met, it prints `OK`, otherwise, it prints `KO`.
+
+Can be used via pipe, passing the result of push_swap
+
+```bash
+> ./push_swap 1 3 2 7 | ./checker 1 3 2 7
+```
+<img src="https://github.com/Nachopuerto95/multilang/blob/main/pswap2.png">
