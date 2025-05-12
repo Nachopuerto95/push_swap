@@ -10,6 +10,8 @@
 
 # Push Swap (42cursus)
 
+<img src="https://github.com/Nachopuerto95/multilang/blob/main/42-Madrid%20-%20Edited.jpg">
+
 ### 📌 Description
 
 Push Swap is a project from the 42 curriculum that consists of sorting a stack of integers using a limited set of operations and an auxiliary stack. The main goal is to achieve the sorting with the fewest number of moves possible, turning it into an algorithm optimization challenge.
@@ -73,3 +75,13 @@ The program can only use the following operations on the stacks:
 `pa` / `pb` – Push the top element from one stack to the other. <br>
 `ra` / `rb` / `rr` – Rotate a stack upward.<br>
 `rra` / `rrb` / `rrr` – Rotate a stack downward.<br>
+
+### 🧩 Bonus: Checker using get_next_line
+As part of the project bonus, I have implemented a program called checker, which reads a sequence of instructions from the standard input and checks if they correctly sort the input stack according to the push_swap rules.
+🛠️ ¿How it works?
+- The program reads the instructions line by line from `stdin` using the `get_next_line` function.
+- It applies each operation (`sa`, `pb`, `rra`, etc.) on stacks `A` and `B`.
+When finished, evaluate:
+  - Whether the `A` stack is completely sorted from lowest to highest.
+  - If stack `B` is empty.
+- If both conditions are met, it prints `OK`, otherwise, it prints `KO`.
