@@ -14,7 +14,9 @@
 
 ## 📜 Acerca del Proyecto
 
+```html
 	🚀 Para este proyecto, debemos aprender sobre el uso de pilas (stacks) y algoritmos de ordenamiento.
+```
 
 > [!NOTE]  
 > Debido a los requisitos de la norma de la Escuela 42:
