@@ -1,14 +1,14 @@
 <p align="end">
-  Change language:<br>
-
-</p>
-
-  <a href="multilang/README_ES.md">
+  Change language: 
+   <a href="multilang/README_ES.md">
     <img src="multilang/ES.png" alt="Español" width="32">
   </a>
   <a href="/README.md">
     <img src="/multilang/EN.png" alt="English" width="32">
   </a>
+</p>
+
+ 
 
 
 # Push Swap (42cursus)
