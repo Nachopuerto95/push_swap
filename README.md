@@ -1,3 +1,14 @@
+<p align="left">
+  <strong>🌐 Change language:</strong><br>
+  <a href="/multilang/README.es.md">
+    <img src="/multilang/ES.png" alt="Español" width="32">
+  </a>
+  <a href="/README.md">
+    <img src="/multilang/EN.png" alt="English" width="32">
+  </a>
+</p>
+
+
 # Push Swap (42cursus)
 
 ### 📌 Description
