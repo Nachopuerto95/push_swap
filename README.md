@@ -34,7 +34,7 @@ Once the target is known, the "cost" (or price) of each move is calculated — t
 
 After calculating the cost for all elements, the cheapest one is moved, and the targets and prices are recalculated.
 
-#### 🔧 How to Use
+### 🔧 How to Use
 
 Compilation:
 
@@ -63,7 +63,7 @@ If the input is invalid (non-numeric values, duplicates, etc.), it will print Er
 
 The program can only use the following operations on the stacks:
 
-`sa` / `sb` / `ss` – Swap the first two elements of a stack.
-`pa` / `pb` – Push the top element from one stack to the other.
-`ra` / `rb` / `rr` – Rotate a stack upward.
-`rra` / `rrb` / `rrr` – Rotate a stack downward.
+`sa` / `sb` / `ss` – Swap the first two elements of a stack. <br>
+`pa` / `pb` – Push the top element from one stack to the other. <br>
+`ra` / `rb` / `rr` – Rotate a stack upward.<br>
+`rra` / `rrb` / `rrr` – Rotate a stack downward.<br>
