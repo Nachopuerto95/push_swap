@@ -30,11 +30,25 @@ Principios básicos:
     2 - Tras conocer el target de cada número vamos a calcular su "precio" que será el numero de movimientos que necesitamos para colocar el mismo y su target al principio de la pila.
     3 - Una vez que calculamos el precio de todos vamos a hacer el movimiento del más "barato" y volveremos a recalcular targets y precios
 
-⚙️ Operaciones permitidas
-sa, sb, ss — swap.
+Cómo Usarlo
+Compilación:
 
-pa, pb — push entre pilas.
+make
+Ejecución:
 
-ra, rb, rr — rotate.
+./push_swap <número1> <número2> <número3> ...
+Ejemplo:
 
-rra, rrb, rrr — reverse rotate.
+./push_swap 4 67 3 87 23
+Salida esperada:
+
+El programa imprimirá en stdout la secuencia de movimientos necesaria para ordenar la pila de la manera más eficiente posible.
+Si la entrada no es válida (valores no numéricos, duplicados, etc.), imprimirá "Error" en la salida de error estándar.
+
+Operaciones Permitidas
+El programa solo puede utilizar las siguientes operaciones sobre las pilas:
+
+`sa` / `sb` / `ss` – Intercambia los dos primeros elementos de una pila.
+pa / pb – Mueve el primer elemento de una pila a la otra.
+ra / rb / rr – Rota la pila hacia arriba.
+rra / rrb / rrr – Rota la pila hacia abajo.
