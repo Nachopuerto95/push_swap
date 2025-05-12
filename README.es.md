@@ -83,8 +83,8 @@ Como parte del bonus del proyecto, he implementado un programa llamado checker, 
 -  El programa lee las instrucciones línea por línea desde `stdin` usando la función `get_next_line`.
 -  Aplica cada operación (`sa`, `pb`, `rra`, etc.) sobre las pilas `A` y `B`.
 Al finalizar, evalúa:
-  - Si la pila `A` está completamente ordenada de menor a mayor.
-  - Si la pila `B` está vacía.
+    - Si la pila `A` está completamente ordenada de menor a mayor.
+    - Si la pila `B` está vacía.
 - Si ambas condiciones se cumplen, imprime `OK`, de lo contrario, imprime `KO`.
 
 Se puede utilizar mediante pipe, pasando el resultado de push_swap
