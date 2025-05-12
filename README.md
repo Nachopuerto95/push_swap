@@ -32,12 +32,13 @@ Principios básicos:
 
 Cómo Usarlo
 Compilación:
-```
+
+```c
 make
 ```
 Ejecución:
 
-```
+```c
 ./push_swap <número1> <número2> <número3> ... <br>
 ```
 
