@@ -39,7 +39,10 @@ Ejecución:
 ./push_swap <número1> <número2> <número3> ...
 Ejemplo:
 
+```c
 ./push_swap 4 67 3 87 23
+```
+
 Salida esperada:
 
 El programa imprimirá en stdout la secuencia de movimientos necesaria para ordenar la pila de la manera más eficiente posible.
@@ -48,7 +51,7 @@ Si la entrada no es válida (valores no numéricos, duplicados, etc.), imprimir�
 Operaciones Permitidas
 El programa solo puede utilizar las siguientes operaciones sobre las pilas:
 
-`sa` / `sb` / `ss` – Intercambia los dos primeros elementos de una pila.
-pa / pb – Mueve el primer elemento de una pila a la otra.
-ra / rb / rr – Rota la pila hacia arriba.
-rra / rrb / rrr – Rota la pila hacia abajo.
+`sa` / `sb` / `ss` – Intercambia los dos primeros elementos de una pila. <br>
+`pa` / `pb` – Mueve el primer elemento de una pila a la otra.
+`ra` / `rb` / `rr` – Rota la pila hacia arriba.
+`rra` / `rrb` / `rrr` – Rota la pila hacia abajo.
