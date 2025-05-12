@@ -59,4 +59,4 @@ El programa solo puede utilizar las siguientes operaciones sobre las pilas:
 `sa` / `sb` / `ss` – Intercambia los dos primeros elementos de una pila. <br>
 `pa` / `pb` – Mueve el primer elemento de una pila a la otra. <br>
 `ra` / `rb` / `rr` – Rota la pila hacia arriba. <br>
-`rra` / `rrb` / `rrr` – Rota la pila hacia abajo. <br>/
+`rra` / `rrb` / `rrr` – Rota la pila hacia abajo. <br>
