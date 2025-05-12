@@ -1,3 +1,6 @@
+[🇬🇧 English](README.md) | [🇪🇸 Español](README.es.md)
+
+
 # Push Swap (42cursus)
 
 #### 📌 Descripción
