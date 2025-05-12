@@ -77,6 +77,7 @@ The program can only use the following operations on the stacks:
 ### 🧩 Bonus: Checker using get_next_line
 
 As part of the project bonus, I have implemented a program called checker, which reads a sequence of instructions from the standard input and checks if they correctly sort the input stack according to the push_swap rules.
+
 🛠️ ¿How it works?
 - Compile checker
 ```bash
