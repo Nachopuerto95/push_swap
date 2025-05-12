@@ -25,10 +25,10 @@ The Turkish algorithm is a heuristic strategy that efficiently sorts by using a 
 Core principles:
 
 - All numbers except three are pushed to stack B; the remaining three are sorted in stack A.
-- In each iteration:
-  1 - The target of each number is calculated — the number in stack A on top of which it should be placed (the largest number smaller than the current one).
-  2 - Once the target is known, the "cost" (or price) of each move is calculated — the number of operations needed to bring both the element and its target to the top of their respective stacks.
-  3 - After calculating the cost for all elements, the cheapest one is moved, and the targets and prices are recalculated.
+- In each iteration:<br>
+  1 - The target of each number is calculated — the number in stack A on top of which it should be placed (the largest number smaller than the current one).<br>
+  2 - Once the target is known, the "cost" (or price) of each move is calculated — the number of operations needed to bring both the element and its target to the top of their respective stacks.<br>
+  3 - After calculating the cost for all elements, the cheapest one is moved, and the targets and prices are recalculated.<br>
 
 ### 🔧 How to Use
 
