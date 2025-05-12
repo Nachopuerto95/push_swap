@@ -1,10 +1,10 @@
 <p align="end">
-  Change language: <br>
+   <strong>🌐 Change language:</strong><br>
    <a href="multilang/README_ES.md">
-    <img src="multilang/ES.png" alt="Español" width="32">
+    <img src="multilang/ES.png" alt="Español" width="50">
   </a>
   <a href="/README.md">
-    <img src="/multilang/EN.png" alt="English" width="32">
+    <img src="/multilang/EN.png" alt="English" width="50">
   </a>
 </p>
 
