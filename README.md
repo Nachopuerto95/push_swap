@@ -38,7 +38,7 @@ After calculating the cost for all elements, the cheapest one is moved, and the 
 
 Compilation:
 
-´´´´c
+```c
 make
 ```
 
