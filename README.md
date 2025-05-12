@@ -86,8 +86,8 @@ As part of the project bonus, I have implemented a program called checker, which
 - The program reads the instructions line by line from `stdin` using the `get_next_line` function.
 - It applies each operation (`sa`, `pb`, `rra`, etc.) on stacks `A` and `B`.
 When finished, evaluate:
-  - Whether the `A` stack is completely sorted from lowest to highest.
-  - If stack `B` is empty.
+     - Whether the `A` stack is completely sorted from lowest to highest.
+     - If stack `B` is empty.
 - If both conditions are met, it prints `OK`, otherwise, it prints `KO`.
 
 Can be used via pipe, passing the result of push_swap
