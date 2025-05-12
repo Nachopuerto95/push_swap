@@ -96,3 +96,5 @@ Can be used via pipe, passing the result of push_swap
 > ./push_swap 1 3 2 7 | ./checker 1 3 2 7
 ```
 <img src="https://github.com/Nachopuerto95/multilang/blob/main/pswap2.png">
+
+https://github.com/Nachopuerto95/multilang/blob/main/program-example.png
