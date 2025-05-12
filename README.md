@@ -72,9 +72,10 @@ The program can only use the following operations on the stacks:
 `ra` / `rb` / `rr` – Rotate a stack upward.<br>
 `rra` / `rrb` / `rrr` – Rotate a stack downward.<br>
 
-- <img src="https://github.com/Nachopuerto95/multilang/blob/main/pswap1.png">
+<img src="https://github.com/Nachopuerto95/multilang/blob/main/pswap1.png">
 
 ### 🧩 Bonus: Checker using get_next_line
+
 As part of the project bonus, I have implemented a program called checker, which reads a sequence of instructions from the standard input and checks if they correctly sort the input stack according to the push_swap rules.
 🛠️ ¿How it works?
 - Compile checker
