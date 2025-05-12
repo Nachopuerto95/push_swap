@@ -21,13 +21,9 @@ This repository contains a complete implementation of the Push Swap project, dev
 ### 🚀 Project Objectives
 
 Manipulate data structures (linked lists).
-
 Develop a custom sorting algorithm.
-
 Optimize the number of instructions (moves).
-
 Respect the constraints of the allowed operations.
-
 Apply the Turkish algorithm effectively for good results on medium and large input sets.
 
 ### 🧠 What is the Turkish Algorithm?
