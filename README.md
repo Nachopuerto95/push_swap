@@ -19,22 +19,6 @@ Cumplir con las restricciones del conjunto de operaciones permitido.
 
 Aplicar el algoritmo turco de manera efectiva para obtener buenos resultados en sets de prueba medianos y grandes.
 
-
-push_swap/
-├── src/
-│   ├── main.c
-│   ├── parsing.c
-│   ├── stack_utils.c
-│   ├── sort.c
-│   ├── turkish_algorithm.c
-│   └── operations.c
-├── includes/
-│   └── push_swap.h
-├── libft/
-├── Makefile
-└── README.md
-
-
 #### 🧠 ¿Qué es el algoritmo turco?
 
 El algoritmo turco es una estrategia heurística para ordenar eficientemente utilizando un enfoque similar a la técnica de chunking. Se divide la pila en fragmentos (chunks) de valores, moviendo inteligentemente los elementos entre las pilas A y B para minimizar los movimientos de rotación, empuje y retorno. Su implementación balancea simplicidad con eficiencia, siendo ideal para casos donde el número de elementos es mediano o grande (100–500 números).
