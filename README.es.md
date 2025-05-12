@@ -71,3 +71,14 @@ El programa solo puede utilizar las siguientes operaciones sobre las pilas:
 `pa` / `pb` – Mueve el primer elemento de una pila a la otra. <br>
 `ra` / `rb` / `rr` – Rota la pila hacia arriba. <br>
 `rra` / `rrb` / `rrr` – Rota la pila hacia abajo. <br>
+
+### 🧩 Bonus: Checker interactivo con get_next_line
+Como parte del bonus del proyecto, he implementado un programa llamado checker, que lee una secuencia de instrucciones desde la entrada estándar y verifica si ordenan correctamente la pila de entrada según las reglas de push_swap.
+
+🛠️ ¿Cómo funciona?
+-  El programa lee las instrucciones línea por línea desde `stdin` usando la función `get_next_line`.
+-  Aplica cada operación (`sa`, `pb`, `rra`, etc.) sobre las pilas `A` y `B`.
+Al finalizar, evalúa:
+  - Si la pila `A` está completamente ordenada de menor a mayor.
+  - Si la pila `B` está vacía.
+- Si ambas condiciones se cumplen, imprime `OK`, de lo contrario, imprime `KO`.
