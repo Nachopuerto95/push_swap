@@ -1,4 +1,4 @@
-<p align="center">
+<p align="end">
   Change language:<br>
 
 </p>
