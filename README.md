@@ -1,5 +1,5 @@
 <p align="end">
-  Change language: 
+  Change language: <br>
    <a href="multilang/README_ES.md">
     <img src="multilang/ES.png" alt="Español" width="32">
   </a>
