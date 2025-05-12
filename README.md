@@ -32,11 +32,15 @@ Principios básicos:
 
 Cómo Usarlo
 Compilación:
-
+```
 make
+```
 Ejecución:
 
-./push_swap <número1> <número2> <número3> ...
+```
+./push_swap <número1> <número2> <número3> ... <br>
+```
+
 Ejemplo:
 
 ```c
