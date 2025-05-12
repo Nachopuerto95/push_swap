@@ -25,10 +25,10 @@ El algoritmo turco es una estrategia heurística para ordenar eficientemente uti
 
 Principios básicos:
 - Se mandan todos los números menos tres a la pila b y se ordenan los trés números que quedan en la pila a.
-- En cada iteración vamos a calcular:
-    1 - El tárget de cada número, que sería el número sobre el que debe colocarse (el mayor de los menores del número analizado).
-    2 - Tras conocer el target de cada número vamos a calcular su "precio" que será el numero de movimientos que necesitamos para colocar el mismo y su target al principio de la pila.
-    3 - Una vez que calculamos el precio de todos vamos a hacer el movimiento del más "barato" y volveremos a recalcular targets y precios
+- En cada iteración vamos a calcular:<br>
+    1 - El tárget de cada número, que sería el número sobre el que debe colocarse (el mayor de los menores del número analizado).<br>
+    2 - Tras conocer el target de cada número vamos a calcular su "precio" que será el numero de movimientos que necesitamos para colocar el mismo y su target al principio de la pila.<br>
+    3 - Una vez que calculamos el precio de todos vamos a hacer el movimiento del más "barato" y volveremos a recalcular targets y precios<br>
 
 Cómo Usarlo
 Compilación:
