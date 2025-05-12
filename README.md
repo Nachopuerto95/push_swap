@@ -45,7 +45,7 @@ Ejecución:
 Ejemplo:
 
 ```c
-./push_swap 4 67 3 87 23
+./push_swap 5 34 6 -7 233
 ```
 
 Salida esperada:
