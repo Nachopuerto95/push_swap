@@ -12,6 +12,17 @@
 
 <img src="https://github.com/Nachopuerto95/multilang/blob/main/42-Madrid%20-%20Edited.jpg">
 
+## 📜 About Project
+
+	🚀 For this project, we must learn about using of stacks and ordering algotithms..
+
+> [!NOTE]  
+> Because of 42 School norm requirements:
+> * Each function can't have more than 25 lines of code.
+> * All variables are declared and aligned at the top of each function.
+> * Project should be created just with allowed functions.
+<br>
+
 ### 📌 Description
 
 Push Swap is a project from the 42 curriculum that consists of sorting a stack of integers using a limited set of operations and an auxiliary stack. The main goal is to achieve the sorting with the fewest number of moves possible, turning it into an algorithm optimization challenge.
@@ -97,4 +108,3 @@ Can be used via pipe, passing the result of push_swap
 ```
 <img src="https://github.com/Nachopuerto95/multilang/blob/main/pswap2.png">
 
-https://github.com/Nachopuerto95/multilang/blob/main/program-example.png
