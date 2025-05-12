@@ -1,6 +1,6 @@
 # Push Swap (42cursus)
 
-####📌 Description
+#### 📌 Description
 
 Push Swap is a project from the 42 curriculum that consists of sorting a stack of integers using a limited set of operations and an auxiliary stack. The main goal is to achieve the sorting with the fewest number of moves possible, turning it into an algorithm optimization challenge.
 
